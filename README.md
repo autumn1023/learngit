@@ -35,3 +35,9 @@ postfix:x:89:89::/var/spool/postfix:/sbin/nologin
 sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 tcpdump:x:72:72::/:/sbin/nologin
 zabbix:x:201:201::/home/zabbix:/bin/bash
+
+and then use 'git add/rm <file>' as
+appropriate to mark resolution and make a commit, or use 'git commit -a'.
+[root@localhost leartgit]# 
+
+Hell world!
